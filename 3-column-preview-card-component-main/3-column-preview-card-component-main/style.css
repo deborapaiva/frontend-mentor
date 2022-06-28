@@ -1,11 +1,94 @@
 @media only screen and (max-width: 375px) {
     body {  
-        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }    
+
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;        
+        color: hsl(0, 0%, 95%);
+    }
+
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    .sedans {
+        background: hsl(31, 77%, 52%);
+    }
+
+    .suvs {
+        background: hsl(184, 100%, 22%) ;
+    }
+
+    .luxury {
+        background: hsl(179, 100%, 13%);
+    }
+
+    a {
+        background: hsl(0, 0%, 95%);
+        text-decoration: none;
+    }
+
+    .sedans a {
+        color: hsl(31, 77%, 52%);
+    }
+
+    .suvs a {
+        color: hsl(184, 100%, 22%);
+    }
+
+    .luxury a{
+        color: hsl(179, 100%, 13%);
     }
 }
 
 @media (min-width:376px) and (max-width:1440px) {
-    body {
-        background-color: aqua;
+    body .class-container {
+        display: flex;
+        justify-content: center;
+    }  
+
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;        
+        color: hsl(0, 0%, 95%);
+    }
+
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .sedans {
+        background: hsl(31, 77%, 52%);
+    }
+
+    .suvs {
+        background: hsl(184, 100%, 22%) ;
+    }
+
+    .luxury {
+        background: hsl(179, 100%, 13%);
+    }
+
+    a {
+        background: hsl(0, 0%, 95%);
+        text-decoration: none;
+    }
+
+    .sedans a {
+        color: hsl(31, 77%, 52%);
+    }
+
+    .suvs a {
+        color: hsl(184, 100%, 22%);
+    }
+
+    .luxury a{
+        color: hsl(179, 100%, 13%);
     }
 }
