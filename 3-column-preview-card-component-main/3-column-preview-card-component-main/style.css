@@ -1,94 +1,154 @@
-@media only screen and (max-width: 375px) {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    width: 100px;
+    text-align: center;
+    padding: 8px 15px;
+    margin: 10px 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.sedans a {
+    color: hsl(31, 77%, 52%);
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.suvs a {
+    color: hsl(184, 100%, 22%);
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.luxury a{
+    color: hsl(179, 100%, 13%);
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.sedans a:active {
+    background: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.suvs a:active {
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.luxury a:active {
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;        
+    color: hsl(0, 0%, 95%);
+    margin: 0px 30px;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 200px;
+    margin: 15px 30px;
+    line-height: 1.6;
+}
+
+object {
+    margin: 30px;
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+    height: 65vh;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%) ;
+    height: 65vh;
+    
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    height: 65vh;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: left;
+}
+
+@media only screen and (max-width: 888px) {
     body {  
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }    
-
-    h1 {
-        font-family: 'Big Shoulders Display', cursive;        
-        color: hsl(0, 0%, 95%);
     }
 
     p {
-        font-family: 'Lexend Deca', sans-serif;
-        font-size: 15px;
-        color: hsla(0, 0%, 100%, 0.75);
+        width: 230px;
     }
 
     .sedans {
-        background: hsl(31, 77%, 52%);
+        height: 55vh;
+        width: 45vh;
+        margin: 20px 0px 0px 25px;
+        border-radius: 20px 25px 0px 0px;
     }
 
     .suvs {
-        background: hsl(184, 100%, 22%) ;
+        height: 55vh;
+        width: 45vh;
+        margin: 0px 0px 0px 25px;        
     }
 
     .luxury {
-        background: hsl(179, 100%, 13%);
+        height: 55vh;
+        width: 45vh;
+        margin: 0px 0px 0px 25px;
+        border-radius: 0px 0px 20px 20px;        
     }
 
-    a {
-        background: hsl(0, 0%, 95%);
-        text-decoration: none;
+    .class-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .sedans a {
-        color: hsl(31, 77%, 52%);
-    }
-
-    .suvs a {
-        color: hsl(184, 100%, 22%);
-    }
-
-    .luxury a{
-        color: hsl(179, 100%, 13%);
-    }
 }
 
-@media (min-width:376px) and (max-width:1440px) {
+@media (min-width:888px) and (max-width:1440px) {
     body .class-container {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-    }  
-
-    h1 {
-        font-family: 'Big Shoulders Display', cursive;        
-        color: hsl(0, 0%, 95%);
-    }
-
-    p {
-        font-family: 'Lexend Deca', sans-serif;
-        font-size: 15px;
-        color: hsla(0, 0%, 100%, 0.75);
-    }
-    
-    .sedans {
-        background: hsl(31, 77%, 52%);
-    }
-
-    .suvs {
-        background: hsl(184, 100%, 22%) ;
-    }
-
-    .luxury {
-        background: hsl(179, 100%, 13%);
-    }
-
-    a {
-        background: hsl(0, 0%, 95%);
-        text-decoration: none;
-    }
-
-    .sedans a {
-        color: hsl(31, 77%, 52%);
-    }
-
-    .suvs a {
-        color: hsl(184, 100%, 22%);
-    }
-
-    .luxury a{
-        color: hsl(179, 100%, 13%);
+        align-items: center;
+        height: 100vh;
+        padding: 0px 55px;
     }
 }
