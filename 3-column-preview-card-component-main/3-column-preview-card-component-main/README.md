@@ -13,20 +13,19 @@ Users should be able to:
 ### Screenshot
 
 Desktop Preview
-(./design/desktop-preview.png)
+![desktop-preview](https://user-images.githubusercontent.com/93719802/176550400-86a6a54e-a643-4eed-8b62-b706f56b4558.png)
 
 Desktop Preview Active
-(./design/desktop-preview-active.png)
+![desktop-preview-active](https://user-images.githubusercontent.com/93719802/176550431-43c05126-d4c2-490c-86e1-e351b6940781.png)
 
 Mobile Preview
-(./design/mobile-preview.png)
+![mobile-preview](https://user-images.githubusercontent.com/93719802/176550448-370f0693-57c4-4dff-90da-910cdd734443.png)
+
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
